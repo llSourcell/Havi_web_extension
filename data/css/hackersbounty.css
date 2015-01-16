@@ -1,0 +1,221 @@
+.toc-diff-stats label.octosplit-label .octicon {
+  float: none;
+  margin-left: 0px;
+  margin-right: 3px;
+}
+
+.word-wrap .blob-code {
+  white-space: normal;
+}
+
+.container.large {
+  width: 98%;
+}
+
+.container.large .repository-content {
+  width: 95%
+}
+
+/* old repository version */
+.container.large {
+  width: 95%;
+}
+
+.octosplit-checkbox {
+  margin-left: 5px;
+}
+
+.octosplit-label {
+  margin-left: 15px;
+}
+
+.new-number {
+  border-left: 1px solid #ddd;
+}
+
+.blob-code.nd {
+  background-color: #e5e5e5;
+}
+
+.blob-num-deletion.nd,
+.blob-code-deletion.nd {
+  background-color: white;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.blob-num-addition.nd,
+.blob-code-addition.nd {
+  background-color: white;
+  border-right: 1px solid #e5e5e5;
+}
+
+.blob-code + .blob-num {
+  border-left: 1px solid #e5e5e5;
+}
+
+#pagination {
+	
+	width:200px;
+	align:center;
+}
+
+#options {
+	
+	width:155px;
+	position:absolute; 
+	     left: 65%;
+		 right: 30%;
+	
+}
+#table1
+{
+	
+	width:750px;
+	margin-left: auto;
+	    margin-right: auto;
+	    border-right: thick double #ffffff;
+	    border-left: thick double #ffffff;
+	    border-width: 1px;
+		border-top:#ffffff;
+		margin-top: 0px; 
+				
+		
+		
+		
+}
+
+#table1 th
+{
+    border:solid 1px;
+    border-collapse:collapse;
+	border-top:#ffffff;
+	border-bottom:#ffffff;
+	margin-top: 0px; 
+	
+	
+}
+
+#table1 td
+{
+    border:solid 1px;
+    vertical-align:middle;
+    border-color: #D3D3D3;
+	margin-top: 0px; 
+	
+	
+}
+#wrapper {
+  top: 0;
+}
+
+/* ===[ Generic ]=== */
+
+
+/* overrides extra padding on button elements in Firefox  */
+
+.button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.button.primary { font-weight: bold }
+
+/* ===[ Danger Button ]=== */
+
+/* ===[ Pill ]=== */
+
+.button.pill {
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+}
+
+/* ===[ Disable ]=== */
+
+.button.disabled,
+.button:disabled {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+/* ===[ Big ]=== */
+
+.button.big { font-size: 14px }
+
+/* ===[ Button Groups ]=== */
+
+.button-group {
+    list-style: none;
+    padding: 0;
+    margin: 10px; /* IE hacks */
+    zoom: 1;
+    display: block;
+    overflow: hidden;
+}
+
+.button + .button,
+.button + .button-group,
+.button-group + .button,
+.button-group + .button-group { margin-left: 15px }
+
+.button-group li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.button-group .button {
+    float: left;
+    margin-left: -1px;
+}
+
+.button-group > .button:not(:first-child):not(:last-child),
+.button-group li:not(:first-child):not(:last-child) .button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.button-group > .button:first-child,
+.button-group li:first-child .button {
+    margin-left: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.button-group > .button:last-child,
+.button-group li:last-child > .button {
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* ===[ Generic Unordered List ]=== */
+
+ul.generic {
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+    padding: 0;
+}
+
+ul.generic li {
+    float: left;
+    margin-left: 10px;
+}
+
+ul.generic li:first-child { margin-left: 0 }
+
+.alignleft { float: left; } 
+
+.alignright { float: right; }

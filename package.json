@@ -1,0 +1,17 @@
+{
+  "name": "octosplit",
+  "title": "Octosplit",
+  "version": "0.0.13",
+  "description": "Side by side diffs and word wrapping in GitHub",
+  "id": "jid1-rPUEHw7klS6vcA",
+  "author": "Denis Roussel",
+  "homepage": "https://github.com/KuiKui/Octosplit",
+  "icon": "img/icon48.png",
+  "data": "data",
+  "lib": "data/js",
+  "main": "mozilla-addon",
+  "permissions": {
+    "private-browsing": true
+  },
+  "license": "MIT"
+}
