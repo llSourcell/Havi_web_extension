@@ -9,3 +9,6 @@ Load it into your chrome browser as an unpacked extension.
 
 
 It's a beautiful extension, you can see bounties display seamlessly in GitHub. 
+
+
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
