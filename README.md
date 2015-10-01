@@ -2,6 +2,9 @@
 
 #Crowdfund and claim bounties for bugs inside of GitHub!
 
+See a video demo here!
+https://www.youtube.com/watch?v=gAzlQgL87X8&feature=youtu.be
+
 This is the extension associated with the web app found here
 https://github.com/llSourcell/Havi_web
 
